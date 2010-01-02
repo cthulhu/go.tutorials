@@ -1,0 +1,16 @@
+= Google Go language Lessons
+
+I just started to learn new language, that's Google Go. 
+Language is pretty new and there are a lot of stuff that could be changed there. 
+
+== Main Go links
+
+http://golang.org/
+http://groups.google.com/group/golang-nuts
+
+== Lesson 1
+
+== Lesson 2
+
+== Lesson 3
+

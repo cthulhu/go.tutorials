@@ -5,7 +5,8 @@ Language is pretty new and there are a lot of stuff that could be changed there.
 
 == Main Go links
 
-http://golang.org/
+http://golang.org
+
 http://groups.google.com/group/golang-nuts
 
 == Lesson 1

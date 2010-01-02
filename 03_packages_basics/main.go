@@ -1,7 +1,10 @@
 package main
 
-import ("fmt"; "factorial")  
+import formated_output "fmt"
+import "./factorial" 
 
 func main() {
-    fmt.Printf("Hello, world\n")
+    formated_output.Printf( "Packeges samples \n");
+    var n = 5;
+    formated_output.Printf( "Number - %d Factorial - %d \n", n, factorial.Calc( n ) );
 }

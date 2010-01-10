@@ -1,0 +1,9 @@
+**/*.8
+01_hello_world/hello_world
+02_functions/functions
+03_packages_basics/packages_basics
+04_arrays/arrays
+05_slices/slices
+06_maps/maps
+07_structs/structs
+

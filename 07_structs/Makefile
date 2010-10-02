@@ -1,16 +1,7 @@
-include $(GOROOT)/src/Make.$(GOARCH)
+include $(GOROOT)/src/Make.inc
  
-.SUFFIXES: .go .$O
-
-OBJS=super_point.$O structs.$O 
 TARG=structs
 
-structs: $(OBJS)
-	$(LD) -o structs $(OBJS)
-
-clean:
-	rm -f $(OBJS) structs
-
-.go.$O:
-	$(GC) $<
-
+GOFILES=structs.go super_point.go
+	
+include $(GOROOT)/src/Make.cmd

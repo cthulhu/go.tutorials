@@ -2,7 +2,6 @@
 package main
 
 import fmt "fmt" 
-import super_point "./super_point" 
 
 // struct type declaretion
 type Point struct { x, y float };
@@ -59,7 +58,7 @@ func main( ){
   
   // exporting structs from other packages
   // struct fields visibility
-  var spoint super_point.SuperPoint;
+  var spoint SuperPoint;
   spoint.X = 10;
   spoint.Y = 15;  
   fmt.Println( spoint.X, spoint.Y );

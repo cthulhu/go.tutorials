@@ -1,4 +1,4 @@
-package super_point
+package main
 
 // type for export should start with Uppercase
 type SuperPoint struct { 

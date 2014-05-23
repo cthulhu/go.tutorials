@@ -6,10 +6,5 @@ type SuperPoint struct {
   name string; // this doesn't
 }
 
-// thats a trick to avoid  troubles with linker
-// http://code.google.com/p/go/issues/detail?id=87&colspec=ID%20Type%20Status%20Owner%20Reporter%20Summary
-func FixerOfIssue87() {
-  
-}
 
 

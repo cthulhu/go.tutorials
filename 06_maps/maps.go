@@ -44,7 +44,7 @@ func main() {
   fmt.Println( "Value =", value, " Presence =", presence );    
   
   // deletion element
-  m3["five"] = 5, false;    
+  delete(m, "five");
   value, presence = m3["five"];
   fmt.Println( "Value =", value, " Presence =", presence );    
   

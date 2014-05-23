@@ -1,7 +1,7 @@
 package main
 
 import formated_output "fmt"
-import "factorial" 
+import "./factorial" 
 
 func main() {
     formated_output.Printf( "Packeges samples \n");

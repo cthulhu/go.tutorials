@@ -60,7 +60,7 @@ func main() {
   fmt.Printf( "Array size is %d\n", len( ar7 ) );
 
   // sorting
-  sort.SortInts( ar7 );
+  sort.Ints( ar7 );
   fmt.Println( ar7 );
 }
 

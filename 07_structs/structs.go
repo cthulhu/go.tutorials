@@ -2,18 +2,17 @@
 package main
 
 import fmt "fmt" 
-
 // struct type declaretion
-type Point struct { x, y float };
+type Point struct { x, y float32 };
 
 type Point3d struct{
   Point;
-  z float;
+  z float32;
 };
 
 type Point4d struct{
   Point3d;
-  float; // have no idea how to call that dimension :)
+  float32; // have no idea how to call that dimension :)
 };
 
 
@@ -21,7 +20,7 @@ func main( ){
   fmt.Println( "Structs Lesson" );
   
   // simple declaration
-  var point struct { x, y float }
+  var point struct { x, y float32 }
   point.x = 10; // simple accessing just like in C
   point.y = 20; // simple accessing just like in C
   // nice trick to see what inside the struct  

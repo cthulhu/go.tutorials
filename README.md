@@ -7,7 +7,7 @@ Language is pretty new and there are a lot of stuff that could be changed there.
 Main Go links
 ---
 
-http://golang.org
+https://go.dev/
 
 http://groups.google.com/group/golang-nuts
 
